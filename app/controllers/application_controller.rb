@@ -26,6 +26,7 @@ class ApplicationController < Sinatra::Base
   end
   
   delete '/recipes/:id' do
+    @recipe
   end
   
 end
