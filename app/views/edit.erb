@@ -1,4 +1,5 @@
 <form action="/recipes/<%= @recipe.id %>" method="post">
+  <p><%= @recipe.ingredients %></p>
   <input type="text" name="name">
   <input type="text" name="ingredients">
   <input type="text" name="cook_time">
